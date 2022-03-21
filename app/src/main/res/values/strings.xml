@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="personal_area_header">Личный кабинет</string>
+    <string name="your_account">Ваш баланс</string>
+    <string name="personal_account">ЛС 11010010</string>
+    <string name="balance">100.42 P</string>
+    <string name="monthly_debt">К оплате за сентябрь: 0.00Р</string>
+    <string name="top_up">ПОПОЛНИТЬ</string>
+</resources>
