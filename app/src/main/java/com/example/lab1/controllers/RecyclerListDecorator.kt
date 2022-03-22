@@ -1,13 +1,15 @@
-package com.example.lab1
+package com.example.lab1.controllers
 
 import android.graphics.Canvas
 import android.graphics.Rect
 import android.graphics.drawable.Drawable
 import android.view.View
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.core.view.children
 import androidx.recyclerview.widget.RecyclerView
+import com.example.lab1.entities.DataItem
+import com.example.lab1.entities.HeaderItem
+import com.example.lab1.entities.Item
+import com.example.lab1.entities.TariffItem
 
 
 class RecyclerListDecorator(private val items: List<Item>, private val divider: Drawable) :

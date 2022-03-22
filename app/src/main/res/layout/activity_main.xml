@@ -40,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
+            android:background="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -73,6 +74,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:text="@string/personal_account"
+                android:textColor="#808080"
                 android:textSize="12sp"
                 app:layout_constraintStart_toEndOf="@id/bill_icon"
                 app:layout_constraintTop_toBottomOf="@id/bill_card_header" />
@@ -97,6 +99,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 android:text="@string/monthly_debt"
+                android:textColor="#808080"
                 android:textSize="12sp"
                 android:layout_marginTop="12dp"/>
             <TextView

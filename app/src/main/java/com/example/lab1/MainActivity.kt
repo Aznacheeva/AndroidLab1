@@ -4,6 +4,12 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.content.res.ResourcesCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.example.lab1.controllers.ItemAdapter
+import com.example.lab1.controllers.RecyclerListDecorator
+import com.example.lab1.entities.DataItem
+import com.example.lab1.entities.HeaderItem
+import com.example.lab1.entities.Item
+import com.example.lab1.entities.TariffItem
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,15 +26,15 @@ class MainActivity : AppCompatActivity() {
             HeaderItem("Пользователь"),
             DataItem(
                 "Иванов иван Иваныч",
-                applicationContext.getDrawable(R.drawable.ic_baseline_account_circle_24)
+                applicationContext.getDrawable(R.drawable.account_circle)
             ),
             DataItem(
                 "Сахалин, ул. Пушкина, д. Колотушкина",
-                applicationContext.getDrawable(R.drawable.ic_baseline_home_24)
+                applicationContext.getDrawable(R.drawable.home)
             ),
             DataItem(
                 "Доступые услуги",
-                applicationContext.getDrawable(R.drawable.ic_baseline_apps_24)
+                applicationContext.getDrawable(R.drawable.apps)
             )
         )
 

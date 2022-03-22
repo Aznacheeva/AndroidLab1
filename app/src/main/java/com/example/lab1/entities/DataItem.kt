@@ -1,4 +1,4 @@
-package com.example.lab1
+package com.example.lab1.entities
 
 import android.graphics.drawable.Drawable
 
